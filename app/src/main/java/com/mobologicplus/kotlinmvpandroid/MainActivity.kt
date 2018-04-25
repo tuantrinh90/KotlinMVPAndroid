@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         if (fragmentManager.backStackEntryCount > 1) {
-            fragmentManager.popBackStack();
+            fragmentManager.popBackStack()
         } else {
-            super.onBackPressed();
+            super.onBackPressed()
         }
     }
 }
